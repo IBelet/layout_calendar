@@ -1,11 +1,13 @@
 .calendar {
   display: flex;
-  padding-top: 30px;
-  padding-left: 10px;
+  position: relative;
+
+  top: 25px;
+  left: 10px;
 
   flex-wrap: wrap;
 
-  width: $days-count * $cell-size + ($days-count - 1) * $gap-size;
+  width: $days-count * ($cell-size + $gap-size);
 
   div {
     display: flex;
