@@ -21,9 +21,10 @@
 
     border: 1px solid black;
 
+    transition: background-color 0.5s, transform 0.5s;
+
     &:hover {
-      position: relative;
-      bottom: 20px;
+      transform: translateY(-20px);
 
       background-color: pink;
       cursor: pointer;
